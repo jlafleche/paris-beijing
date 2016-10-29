@@ -78,7 +78,7 @@
  */
 .circle
 {
-   opacity:0.5;
+   opacity:0;
    fill:#b9b9b9;
    fill-opacity:1;
    stroke:black;
@@ -102,25 +102,18 @@
    stroke-dasharray: none;
 }
 
-    .om, .cz, .ca, .pk, .cy, .cr, .co, .tt, .tw, .my, .mw, .kr, .tj, .tm, .tl, .tn, .mn, .pt, .ba, .iq, .rw, .td, .sm, .py, .zw, .cd, .uy, .jp, .gm, .ad, .ua, .no, .si, .ls, .lu, .lt, .so, .sb, .hn, .na, .bt, .la, .ht, .sz, .lb, .mx, .mr, .li, .lk, .bg, .bf, .bd, .gd, .np, .ag, .gb, .gl, .eg, .gn, .ee, .an, .al, .qa, .au, .az, .cl, .er, .gy, .mc {
+.cv, .ci, .cl, .rs, .vn, .rw, .cf, .pk, .ru, .fj, .ni, .br, .jm, .bj, .mx, .np, .ag, .mg, .ae, .ec, .am, .et, .es, .ye, .mv, .mt, .mr, .il, .pa, .tt, .id, .th, .tj, .tm, .mc, .iq, .mh, .do, .de, .si, .sk, .sl, .ws, .ly, .sb, .se, .na, .mz, .gd, .gr, .bn {
         fill: #2BDF37
     }
-    
-
-    .pl, .ph, .mz, .ao, .kh, .pa, .id, .ec, .ve, .cn, .cf, .do, .dz, .sv, .bz, .lr, .uz, .gr, .lv, .sa, .bw, .se, .us, .sy, .bi, .bn, .hr, .ug, .sr, .ie, .be, .ga, .bj, .gh, .md, .am, .ar, .gw, .at, .et, .es {
+.om, .cz, .cr, .km, .is, .kz, .cg, .fm, .fi, .za, .zm, .by, .us, .bi, .bh, .ug, .ba, .ie, .bg, .kp, .eh, .eg, .al, .hu, .in, .pe, .pg, .my, .mn, .md, .lr, .py, .to, .ir, .pt, .ml, .td, .it, .lu, .la, .lb, .li, .ge, .gf, .gl, .gm, .gh, .gt, .gw, .gq, .gy {
         fill: #FFCC32
     }
-    
-
-    .tz, .in, .il, .kg, .pg, .th, .ci, .cm, .ma, .ir, .vn, .mk, .ru, .dj, .sn, .za, .tg, .fr, .sk, .sl, .ni, .br, .ne, .sd, .sg, .bh, .ae, .gt {
+.ki, .ch, .kr, .cn, .co, .ca, .zw, .bf, .ua, .no, .bz, .tr, .uz, .bs, .jo, .qa, .nr, .be, .bd, .ad, .ee, .ao, .ar, .er, .tz, .va, .kw, .tl, .mk, .sm, .dk, .ng, .dz, .lt, .so, .sg, .ht, .sz, .hr, .ss, .sv, .ga, .gb, .gn, .jp {
         fill: #4242D2
     }
-    
-
-    .hu, .by, .af, .ke, .kp, .ge, .ng, .jo, .fi, .ch, .ly, .bo, .kw, .ml, .mm, .kz, .zm, .ye {
+.cy, .vu, .ro, .ke, .kg, .kh, .cu, .ve, .cm, .cd, .sr, .fr, .nl, .uy, .ne, .bw, .bt, .bo, .nz, .bb, .af, .at, .au, .az, .pl, .mu, .ph, .ma, .tw, .tv, .mw, .me, .tn, .pw, .mm, .tg, .dj, .dm, .ls, .hn, .sn, .lv, .sa, .sc, .sd, .sy, .lk {
         fill: #FF3732
     }
-
 
 
 
@@ -6737,7 +6730,7 @@
   <g
      id="nc">
     <g
-       class="land nc"
+       class="land fr"
        id="nc-">
       <path
          d="M 2526.5454,938.5885 C 2527.6004,939.6015 2528.2995,941.1195 2529.6326,941.8385 C 2530.1970,942.1435 2530.2010,942.9255 2530.5274,943.3715 C 2531.0147,944.0365 2532.1198,944.2435 2532.4474,944.9975 C 2533.0007,946.2665 2534.7060,946.6365 2535.6705,947.4105 C 2537.0944,948.5545 2538.3717,949.0435 2539.9730,949.7475 C 2539.2057,950.6485 2541.3760,952.3925 2542.1267,951.4765 C 2541.8896,951.9195 2542.0190,952.1055 2542.1580,952.6265 C 2542.7227,950.8795 2543.9385,953.2895 2544.8121,953.0735 C 2545.9895,952.7815 2547.3066,952.7395 2546.1205,950.9515 C 2545.6140,950.1875 2544.9073,950.1105 2544.2088,949.6375 C 2543.3154,949.0325 2542.6857,948.1265 2541.9274,947.3845 C 2540.4874,945.9755 2538.5498,945.4575 2537.0535,944.2075 C 2535.8712,943.2195 2535.1600,942.2295 2534.3693,940.9775 C 2533.3426,939.3515 2533.0877,939.5895 2531.4723,938.5865 C 2530.0356,937.6935 2529.2329,935.9585 2527.7113,935.2065 C 2527.0638,934.8865 2526.5674,935.2115 2525.9336,934.9805 C 2525.0918,934.6745 2524.6510,933.8095 2523.8599,933.4065 C 2524.3643,934.0465 2524.7982,934.8485 2525.1217,935.5605 C 2525.3549,936.0765 2525.1158,936.4325 2525.4698,936.9695 C 2525.8401,937.5285 2526.3339,937.9595 2526.5454,938.5885"

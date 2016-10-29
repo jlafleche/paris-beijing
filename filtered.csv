@@ -36,7 +36,7 @@ Chile, .cl, CHL
 China, .cn, CHN
 Colombia, .co, COL
 Comoros Komori, .km, COM
-Congo, .cd, CON
+Congo, .cg, CON
 Costa Rica, .cr, COS
 Croatia, .hr, CRO
 Cuba, .cu, CUB
@@ -52,7 +52,7 @@ East Timor, .tl, ETM
 Ecuador, .ec, ECU
 Egypt, .eg, EGY
 El Salvador, .sv, SAL
-Equatorial Guinea, .gq, EGQ
+Equatorial Guinea, .gq, EQG
 Eritrea, .er, ERI
 Estonia, .ee, EST
 Ethiopia, .et, ETH
@@ -60,6 +60,7 @@ Federated States of Micronesia, .fm, FSM
 Fiji, .fj, FIJ
 Finland, .fi, FIN
 France, .fr, FRN
+French Guiana, .gf, FRG
 Gabon, .ga, GAB
 Gambia, .gm, GAM
 Georgia, .ge, GRG
@@ -115,7 +116,7 @@ Mexico, .mx, MEX
 Moldova, .md, MLD
 Monaco, .mc, MNC
 Mongolia, .mn, MON
-Montenegro, .me, MNG
+Montenegro, .me, MTG
 Morocco, .ma, MOR
 Mozambique, .mz, MZM
 Myanmar, .mm, MYA
@@ -123,7 +124,6 @@ Namibia, .na, NAM
 Nauru, .nr, NAU
 Nepal, .np, NEP
 Netherlands, .nl, NTH
-Netherlands Antilles, .an, NTH
 New Zealand, .nz, NEW
 Nicaragua, .ni, NIC
 Niger, .ne, NIR
@@ -140,13 +140,14 @@ Philippines, .ph, PHI
 Poland, .pl, POL
 Portugal, .pt, POR
 Qatar, .qa, QAT
-Romania, .ro, ROM
+Romania, .ro, RUM
 Russia, .ru, USR
 Rwanda, .rw, RWA
 Samoa, .ws, WSM
 San Marino, .sm, SNM
 Saudi Arabia, .sa, SAU
 Senegal, .sn, SEN
+Serbia, .rs, SRB
 Seychelles, .sc, SEY
 Sierra Leone, .sl, SIE
 Singapore, .sg, SIN
@@ -187,6 +188,7 @@ Vanuatu, .vu, VAN
 Papal States, .va, PAP
 Venezuela, .ve, VEN
 Vietnam, .vn, DRV
+Western Sahara, .eh, ESH
 Yemen, .ye, YEM
 Zambia, .zm, ZAM
 Zimbabwe, .zw, ZIM

@@ -15,25 +15,25 @@ import random
 # grab TLD -> Name -> WAR mapping from CSV
 names = {}
 wars = {}
+tld_adjacencies = {}
 with open('filtered.csv') as f:
     for line in f:
         name, tld, war = [chunk.strip() for chunk in line.split(',')]
         wars[war] = tld
         names[tld] = name
+        tld_adjacencies[tld] = []
 
 # grab adjacencies
 with open('country_adj.json') as f:
     war_adjacencies = json.load(f)
 
 # convert to TLD adjacencies - some data is missing - oh well.
-tld_adjacencies = {}
 for key in war_adjacencies:
     if key not in wars:
         print 'ignoring', key
         continue
 
     tld = wars[key]
-    tld_adjacencies[tld] = []
     for adjacent in war_adjacencies[key]:
         if adjacent in wars:
            tld_adjacencies[tld].append(wars[adjacent])
@@ -59,28 +59,33 @@ keys = tld_adjacencies.keys()
 random.shuffle(keys)
 
 # greedily attempt to color countries
-for tld in keys:
+while len(keys):
+    tld = keys.pop()
     adjacents = tld_adjacencies[tld]
     neighbors_colors = set([country_colors[a] for a in adjacents if a in country_colors])
+
     if len(neighbors_colors) == len(colors):
-        print 'impossible to color:', names[tld]
-        print neighbors_colors
-        print [names[a] for a in adjacents]
+        print 'Impossible for {} - requeuing all neighbors'.format(tld)
+        keys.append(tld)
+        for neighbor in adjacents:
+            print 'checking neighbor', neighbor
+            color = country_colors.get(neighbor)
+            if color:
+                print 'deleting neighbor', neighbor
+                del country_colors[neighbor]
+                colors[color].remove(neighbor)
+                keys.append(neighbor)
+            random.shuffle(keys)
         continue
 
-    color = next(iter(set(colors.keys()) - neighbors_colors))
-    country_colors[tld] = color
-    colors[color].add(tld)
+    options = list(set(colors.keys()) - neighbors_colors)
+    random.shuffle(options)
+    country_colors[tld] = options[0]
+    colors[options[0]].add(tld)
 
 
 # print out the resulting CSS styles
 for c in colors:
-    print '''
-    {countries} {{
+    print '''{countries} {{
         fill: {color}
-    }}
-    '''.format(countries=', '.join(colors[c]), color=c)
-
-
-
-
+    }}'''.format(countries=', '.join(colors[c]), color=c)
