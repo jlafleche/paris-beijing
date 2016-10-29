@@ -95,9 +95,9 @@
 {
    fill: #b9b9b9;
    fill-opacity: 1;
-   stroke: #ffffff;
+   stroke: #333333;
    stroke-opacity: 1;
-   stroke-width: 0.99986997;
+   stroke-width: 1;
    stroke-miterlimit: 3.97446823;
    stroke-dasharray: none;
 }
@@ -163,7 +163,7 @@
 {
    opacity: 1;
    color: #000000;
-   fill:white;
+   fill:#0cc0f2;
    fill-opacity:1;
    fill-rule:nonzero;
    stroke:#000000;
@@ -185,9 +185,9 @@
 
 .lake
 {
-   fill:#ffffff;
-   fill-opacity:1;
-   stroke:#ffffff;
+   fill:#0cc0f2;
+   fill-0cc0f2:1;
+   stroke:#1d6ce2;
    stroke-opacity:1;
    stroke-width:0.99986997;
    stroke-miterlimit:3.97446823;
