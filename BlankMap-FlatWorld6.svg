@@ -102,19 +102,18 @@
    stroke-dasharray: none;
 }
 
-.cv, .ci, .cl, .rs, .vn, .rw, .cf, .pk, .ru, .fj, .ni, .br, .jm, .bj, .mx, .np, .ag, .mg, .ae, .ec, .am, .et, .es, .ye, .mv, .mt, .mr, .il, .pa, .tt, .id, .th, .tj, .tm, .mc, .iq, .mh, .do, .de, .si, .sk, .sl, .ws, .ly, .sb, .se, .na, .mz, .gd, .gr, .bn {
+.cy, .om, .cu, .cv, .ch, .tz, .cl, .cn, .fi, .bz, .uz, .ni, .bs, .br, .bw, .bj, .qa, .bb, .ba, .lu, .nr, .eg, .ao, .au, .er, .pl, .mu, .mr, .pa, .tt, .ie, .th, .md, .mc, .to, .tn, .ir, .is, .pw, .mk, .mh, .dk, .dm, .lv, .so, .pt, .si, .sl, .ws, .ht, .sz, .ss, .ge, .ga, .sy, .gl, .gh, .gw {
         fill: #2BDF37
     }
-.om, .cz, .cr, .km, .is, .kz, .cg, .fm, .fi, .za, .zm, .by, .us, .bi, .bh, .ug, .ba, .ie, .bg, .kp, .eh, .eg, .al, .hu, .in, .pe, .pg, .my, .mn, .md, .lr, .py, .to, .ir, .pt, .ml, .td, .it, .lu, .la, .lb, .li, .ge, .gf, .gl, .gm, .gh, .gt, .gw, .gq, .gy {
+.mt, .in, .kg, .pe, .ki, .pg, .kw, .mz, .my, .ci, .kr, .cm, .vn, .ro, .cd, .tg, .ar, .dj, .do, .fm, .de, .ru, .cr, .sk, .sn, .jo, .ne, .sd, .na, .nz, .hr, .li, .tr, .gd, .af, .eh, .ae, .ve, .al, .gt, .es {
         fill: #FFCC32
     }
-.ki, .ch, .kr, .cn, .co, .ca, .zw, .bf, .ua, .no, .bz, .tr, .uz, .bs, .jo, .qa, .nr, .be, .bd, .ad, .ee, .ao, .ar, .er, .tz, .va, .kw, .tl, .mk, .sm, .dk, .ng, .dz, .lt, .so, .sg, .ht, .sz, .hr, .ss, .sv, .ga, .gb, .gn, .jp {
+.cz, .km, .kp, .va, .ca, .kz, .cg, .zw, .il, .fj, .no, .by, .jm, .bi, .bh, .bo, .tw, .ug, .bg, .bf, .be, .bd, .ad, .ee, .ec, .am, .et, .ye, .mw, .ph, .pk, .mx, .tv, .mg, .me, .tl, .mn, .iq, .td, .it, .dz, .ls, .sb, .hn, .sg, .hu, .lk, .la, .gf, .gb, .gn, .gq, .gy, .bn {
         fill: #4242D2
     }
-.cy, .vu, .ro, .ke, .kg, .kh, .cu, .ve, .cm, .cd, .sr, .fr, .nl, .uy, .ne, .bw, .bt, .bo, .nz, .bb, .af, .at, .au, .az, .pl, .mu, .ph, .ma, .tw, .tv, .mw, .me, .tn, .pw, .mm, .tg, .dj, .dm, .ls, .hn, .sn, .lv, .sa, .sc, .sd, .sy, .lk {
+.mv, .ke, .kh, .vu, .lr, .py, .ma, .rs, .cf, .rw, .ml, .lb, .lt, .mm, .uy, .ng, .za, .fr, .gr, .ua, .zm, .nl, .sm, .sr, .sa, .sc, .se, .us, .ly, .id, .bt, .co, .sv, .np, .ag, .gm, .jp, .at, .az, .tm, .tj {
         fill: #FF3732
     }
-
 
 
 /*

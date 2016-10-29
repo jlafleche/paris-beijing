@@ -85,7 +85,7 @@
 	"ANG": ["CON", "DRC", "ZAM", "NAM"],
 	"SWD": ["FIN", "NOR", "DEN"],
 	"MOR": ["SPN", "MAA", "ALG", "ESH"],
-	"INS": ["MAL", "SIN", "ETM", "PNG", "PHI"],
+	"INS": ["MAL", "SIN", "ETM", "PNG", "PHI", "AUL"],
 	"MON": ["USR", "CHN"],
 	"IND": ["CHN", "BHU", "PAK", "BNG", "MYA", "SRI", "NEP"],
 	"NOR": ["USR", "FIN", "SWD"],
@@ -154,7 +154,7 @@
 	"CHL": ["PER", "BOL", "ARG"],
 	"SLV": ["AUS", "HUN", "ITA", "CRO"],
 	"MLI": ["SEN", "MAA", "NIR", "CDI", "GUI", "BFO", "ALG"],
-	"AUL": ["PNG"],
+	"AUL": ["PNG", "NEW", "INS"],
 	"SLO": ["POL", "AUS", "HUN", "CZR", "UKR"],
 	"IRN": ["ARM", "AZE", "TUR", "IRQ", "KUW", "AFG", "TKM", "PAK"],
 	"MTG": ["ALB", "CRO", "SRB", "BOS"],
@@ -169,5 +169,6 @@
 	"PNG": ["INS", "AUL", "SOL"],
     "ESH": ["MOR", "ALG", "MAA"],
     "SRB": ["HUN", "RUM", "BUL", "MAC", "CRO", "BOS", "MTG"],
-    "FRG": ["SUR", "BRA"]
+    "FRG": ["SUR", "BRA"],
+    "NEW": ["AUL"]
 }
